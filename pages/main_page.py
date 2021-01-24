@@ -1,5 +1,6 @@
-from .base_page import BasePage
+from .base_page import BasePage ##импортируем конструктор(browser, url) и метод open
 from selenium.webdriver.common.by import By
+from pages.locators import MainPageLocators
 import sys
 
 class MainPage(BasePage):
@@ -8,4 +9,4 @@ class MainPage(BasePage):
         login_link.click()
         
     def should_be_login_link(self):
-        self.browser.find_element(By.CSS_SELECTOR, "#login_link"), "Login link not presented"
+        self.browser.find_element(*MainPageLocators.LOGIN_LINK), "Login link not presented"
