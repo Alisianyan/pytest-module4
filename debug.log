@@ -1,0 +1,18 @@
+[0125/095840.888:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[0125/105502.729:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[0125/114011.362:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[0125/122631.638:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[0125/130534.530:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[0125/131758.744:ERROR:process_info.cc(359)] UncheckedAllocate
+[0125/131758.756:ERROR:process_info.cc(359)] UncheckedAllocate
+[0125/132732.031:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0125/132732.039:ERROR:exception_snapshot_win.cc(99)] thread ID 7592 not found in process
+[0125/132732.084:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0125/132732.085:ERROR:exception_snapshot_win.cc(99)] thread ID 7888 not found in process
+[0125/134411.375:ERROR:process_info.cc(359)] UncheckedAllocate
+[0125/134411.533:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\DAB5~1\AppData\Local\Temp\scoped_dir4928_2052698528\Crashpad\attachments\06525736-19aa-43f1-8588-0a8d4d96f604: Системе не удается найти указанный путь. (0x3)
+[0125/135925.379:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[0125/150940.852:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\DAB5~1\AppData\Local\Temp\scoped_dir9388_313158589\Crashpad\attachments\b8d93bec-567f-4bfa-b058-613a3d100616: Системе не удается найти указанный путь. (0x3)
+[0125/151406.930:ERROR:process_info.cc(359)] UncheckedAllocate
+[0125/151407.032:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\DAB5~1\AppData\Local\Temp\scoped_dir1008_661943291\Crashpad\attachments\ab633356-6b28-4432-a475-89b2afff7081: Системе не удается найти указанный путь. (0x3)
+[0125/151412.026:ERROR:process_info.cc(359)] UncheckedAllocate
