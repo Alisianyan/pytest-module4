@@ -1,10 +1,11 @@
 from pages.product_page import ProductPage
 from pages.locators import ProductLocators
 from selenium import webdriver
-import time
+import time, pytest
 
-def test_can_add_to_cart(browser):
-    link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=newYear2019."
+array_link = [f"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer{i}" for i in range(10)]
+@pytest.mark.parametrize('link', array_link)
+def test_can_add_to_cart(browser, link):
     page = ProductPage(browser, link)
     page.open()
     book_name, product_amount = page.add_to_cart()
