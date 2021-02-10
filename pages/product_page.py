@@ -26,6 +26,12 @@ class ProductPage(BasePage):
         except NoAlertPresentException:
             print("No second alert presented")
             
+    def should_not_be_success_message(self):
+        assert self.is_element_not_present(*ProductLocators.SUCCESS_MESSAGE), "Success message is presented, but shouldnt"
+            
+    def should_hidden_success_message_after_timeout(self):
+        assert self.is_disappeared(*ProductLocators.SUCCESS_MESSAGE), "message not hidden"
+            
     def look_for_asserts(self, book_name, product_amount):
         print("sdfdsg")
         cart_added_product = self.browser.find_element(*ProductLocators.CART_added_product).text

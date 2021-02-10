@@ -17,3 +17,4 @@ class ProductLocators():
     PRODUCT_AMOUNT = (By.XPATH, "/html/body/div[2]/div/div[2]/div[2]/article/div[1]/div[2]/p[1]")
     CART_added_product = (By.XPATH, "/html/body/div[2]/div/div[1]/div[1]/div/strong")
     CART_sum = (By.XPATH, "/html/body/div[2]/div/div[1]/div[3]/div/p[1]/strong")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert-success >.alertinner")
