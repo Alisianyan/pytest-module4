@@ -18,3 +18,7 @@ class ProductLocators():
     CART_added_product = (By.XPATH, "/html/body/div[2]/div/div[1]/div[1]/div/strong")
     CART_sum = (By.XPATH, "/html/body/div[2]/div/div[1]/div[3]/div/p[1]/strong")
     SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert-success >.alertinner")
+    
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")    

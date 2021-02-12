@@ -3,6 +3,7 @@ from pages.locators import ProductLocators
 from selenium import webdriver
 import time, pytest
 
+@pytest.mark.xfail
 def test_can_add_to_cart(browser):
     link="http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     page = ProductPage(browser, link)
