@@ -42,3 +42,7 @@ class BasePage():
         
     def should_be_login_link(self):
         assert self.is_element_present(*BasePageLocators.LOGIN_LINK), "Login link not presented"
+        
+    def go_to_basket(self):
+        cart_button = self.browser.find_element(*BasePageLocators.CART_BUTTON)
+        cart_button.click()
